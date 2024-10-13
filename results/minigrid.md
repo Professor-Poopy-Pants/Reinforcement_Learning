@@ -52,4 +52,10 @@ When an action `a` is taken:
 ---
 
 ## Minigrid Results:
-![Monte Carlo]("C:\Users\deves\OneDrive\Desktop\MC_1.png")
+
+### Monte Carlo
+![Image](MC_1.png)
+
+### SARSA
+![Image]()
+
