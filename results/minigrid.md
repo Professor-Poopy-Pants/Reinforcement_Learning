@@ -57,5 +57,12 @@ When an action `a` is taken:
 ![Image](MC_1.png)
 
 ### SARSA
-![Image]()
+![Image](SARSA_1.png)
+![Image](SARSA_2.png)
+
+### SARSA_LAMBDA
+![Image](Sarsa_Lamda.png)
+
+### QLearning
+![Image](QLearning.png)
 
