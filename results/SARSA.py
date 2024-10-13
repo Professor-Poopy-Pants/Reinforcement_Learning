@@ -24,13 +24,7 @@ def epsilon_greedy_policy(state, Q, epsilon):
         return np.random.randint(0,3)  
     else:
         return np.argmax(Q[state])
-        # return max(Q[state],key=Q[state].get)
-
-
-
-
-
-
+       
 for i in range(len(num_episodes)):
 
     env.reset()
