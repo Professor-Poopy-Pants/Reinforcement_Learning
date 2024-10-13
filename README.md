@@ -16,7 +16,7 @@ This repository provides a comprehensive overview of various tasks and insights 
 
 [[frozenlake]("[results/frozenlake.md](https://github.com/Professor-Poopy-Pants/Reinforcement_Learning/blob/main/results/frozenlake.md)")](https://github.com/Professor-Poopy-Pants/Reinforcement_Learning/blob/main/results/frozenlake.md)
 
-[minigrid]("[results/minigrid.md](https://github.com/Professor-Poopy-Pants/Reinforcement_Learning/blob/main/results/minigrid.md)")
+[[minigrid]("[results/minigrid.md](https://github.com/Professor-Poopy-Pants/Reinforcement_Learning/blob/main/results/minigrid.md)")](https://github.com/Professor-Poopy-Pants/Reinforcement_Learning/blob/main/results/minigrid.md)
 
 ## IMAGES 
 <img src="https://user-images.githubusercontent.com/20359930/146223615-de23593f-02df-4ef1-b356-87153208d6f1.png" alt="image" height="300" width="300">
