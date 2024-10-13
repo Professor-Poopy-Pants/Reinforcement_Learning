@@ -14,9 +14,9 @@
 ## DESCRIPTION:
 This repository provides a comprehensive overview of various tasks and insights obtained from studying Reinforcement Learning (RL). It features in-depth descriptions of the environments utilized, visual representations of the outcomes from implementing different algorithms, and a summary of the challenges faced throughout the process.
 
-![frozenlake]("results\frozenlake.md")
+[frozenlake]("results/frozenlake.md")
 
-[minigrid]("results\minigrid.md")
+[minigrid]("results/minigrid.md")
 
 ## IMAGES 
 <img src="https://user-images.githubusercontent.com/20359930/146223615-de23593f-02df-4ef1-b356-87153208d6f1.png" alt="image" height="300" width="300">
