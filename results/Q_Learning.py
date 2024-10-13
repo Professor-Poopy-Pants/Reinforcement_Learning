@@ -24,7 +24,7 @@ def epsilon_greedy_policy(state, Q, epsilon):
         return np.random.randint(0,3)  # Random action
     else:
         return np.argmax(Q[state])
-        # return max(Q[state],key=Q[state].get)
+        
 
 
 
