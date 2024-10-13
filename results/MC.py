@@ -21,7 +21,7 @@ def epsilon_greedy_policy(state, Q, epsilon):
         return np.random.randint(0,3)  
     else:
         return np.argmax(Q[state])
-        # return max(Q[state],key=Q[state].get)
+       
 
 def updated_Q(episode):
     return_value=0
@@ -31,7 +31,7 @@ def updated_Q(episode):
        state, r, a, done, next_obs_space=episode[t]
        return_value = (gamma*return_value) + r
        if state in Q:
-          Q[state][a] += alpha * (return_value - Q[state][a])
+          Q[state][a] += alpha * (return_value - Q[state][a]) #updates the Q-Value
        t=t-1
     rt.append(return_value)
 
