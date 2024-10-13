@@ -42,7 +42,7 @@ The user has the following discrete actions:
  * 7: Down/Left Diagonal
  * 8: Left/Up Diagonal
 
-## Reward Functiom
+## Reward Function
 
 ## About Algorithm
 
