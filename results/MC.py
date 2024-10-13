@@ -31,7 +31,7 @@ def updated_Q(episode):
        state, r, a, done, next_obs_space=episode[t]
        return_value = (gamma*return_value) + r
        if state in Q:
-          Q[state][a] += alpha * (return_value - Q[state][a]) #updates the Q-Value
+          Q[state][a] += alpha * (return_value - Q[state][a]) 
        t=t-1
     rt.append(return_value)
 
