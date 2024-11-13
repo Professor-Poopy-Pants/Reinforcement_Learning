@@ -47,7 +47,11 @@ The user has the following discrete actions:
  * 8: Left/Up Diagonal
 
 ## Reward Function
-
+dist_from_center = math.sqrt((xp-0.5)**2 + (yp-0.5)**2)
+        if dist_from_center < 0.35:
+            reward = 1 / (0.65 + dist_from_center)
+        else:
+            reward = 0
 ## About Algorithm
 
 Q-Learning is a popular model-free reinforcement learning algorithm used to learn the value of actions taken in given states of an environment. It operates by learning a Q-value (quality value) function, which estimates the expected utility (or future reward) of taking a particular action in a specific state and following a certain policy thereafter. The core concept is to find an optimal action-selection policy that maximizes the total reward over time.
